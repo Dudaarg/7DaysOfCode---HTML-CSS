@@ -1,0 +1,39 @@
+.conteudo__container {
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px;
+    padding: 32px;
+    background-color: var(--fundo-rosado);
+    gap: 25px;
+    margin: 96px;
+}
+
+.conteudo__container__subtitulo {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+.conteudo__container__titulo {
+    font-weight: 500;
+    font-size: 36px;
+    color: var(--cor-secundaria);
+    margin: 0 90px;
+    text-align: center;
+}
+
+.conteudo__container__nome {
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.conteudo__container__area {
+    color: var(--cor-primaria);
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}

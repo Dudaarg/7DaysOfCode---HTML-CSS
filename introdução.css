@@ -1,0 +1,33 @@
+.apresentacao {
+    font-family: var(--fonte-principal);
+    margin: 96px;
+}
+
+.apresentacao__introducao {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao__titulo {
+    display: flex;
+    justify-content: center;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.apresentacao__texto {
+    padding: 30px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-primaria);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    
+}

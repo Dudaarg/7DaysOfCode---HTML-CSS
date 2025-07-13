@@ -1,0 +1,28 @@
+.metricas {
+    display: flex;
+}
+
+.metricas__resultados {
+    font-family: var(--fonte-principal);
+    margin-bottom: 96px;
+    padding: 50px;
+}
+
+.metricas__resultados__titulo {
+    color: var(--cor-destaque);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.metricas__resultados__subtitulo {
+    color: var(--cor-secundaria);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.metricas__resultados__texto {
+    color: var(--cor-primaria);
+    font-size: 16px;
+    font-weight: 400;
+}
